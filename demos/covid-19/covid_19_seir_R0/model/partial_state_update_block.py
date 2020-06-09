@@ -8,7 +8,7 @@ partial_state_update_block = [
             'infected_growth': p_infected_growth,
             'recovered_growth': p_recovered_growth,
             'incidence_growth': p_incidence_growth,
-            'reproductive_number_mutation': p_reproductive_number_mutation
+            # 'reproductive_number_mutation': p_reproductive_number_mutation
         },
         'variables': {
             'susceptible': s_susceptible_population,
@@ -16,7 +16,7 @@ partial_state_update_block = [
             'infected': s_infected_population,
             'recovered': s_recovered_population,
             'incidence': s_incidence_population,
-            'reproductive_number': s_reproductive_number 
+            # 'reproductive_number': s_reproductive_number 
         }
     }
 
