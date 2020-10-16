@@ -7,7 +7,7 @@ cadCAD SIR, SEIR and SEIRD modelling in an dynamical system approach.
 * lab_notebook.ipynb - The notebook for experimenting and visualizing
 * run.py - Script for running all configurated experiments
 * seir/ - Folder for the SEIR simulation model
-* aeird/ - Folder for the SEIRD simulation model
+* seird/ - Folder for the SEIRD simulation model
 * sir/ - Folder for the SIR simulation model
 * {simulation}/config.py - Simulation configuration object
 * {simulation}/sim_params.py - Simulation parameters
