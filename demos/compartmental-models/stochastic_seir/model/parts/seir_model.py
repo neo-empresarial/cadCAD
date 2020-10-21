@@ -1,7 +1,7 @@
 from ._utils import init_param_dist
 import numpy as np
 from scipy.stats import expon
-from covid_19_stochastic.sim_params import MONTE_CARLO_RUNS
+from stochastic_seir.sim_params import MONTE_CARLO_RUNS
 rngs = [np.random.RandomState(i) for i in range (MONTE_CARLO_RUNS)]
 
 ## Policies
